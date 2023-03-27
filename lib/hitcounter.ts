@@ -29,7 +29,7 @@ export class HitCounter extends Construct {
       },
     });
 
-    // TODO //
+    // TODO // //
     // grand the lambda role read/write permissions to our table
     table.grantReadWriteData(this.handler);
 
